@@ -1,0 +1,52 @@
+@model MvcAdo.Models.Employee
+
+
+    @{
+        ViewData["Title"]=  "Create Employee";
+        var errormessage =TempData["errorMessage"]?.ToString();
+    }
+    <h3>@ViewData["Title"]?.ToString()</h3>
+    <hr/>
+    @if(!string.IsNullOrWhiteSpace(errormessage))
+    {
+        <div class="alert alert-danger">
+            <b>Error :</b>@errormessage
+            <button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="Close">
+
+            </button>
+        </div>
+    }
+    <form method="post" action="CreateEmployee" class="mt-3" autocomplete="off" >
+
+        <div class="mb-3">
+            <label class="form-label">First Name</label>
+            <input type="text" class="form-control" asp-for="FirstName"/>
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Last Name</label>
+            <input type="text" class="form-control" asp-for="LastName"/>
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+    <div class="mb-3">
+            <label class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" asp-for="DateOfBirth"/>
+            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">E-Mail</label>
+            <input type="email" class="form-control" asp-for="Email"/>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Salary</label>
+            <input type="text" class="form-control" asp-for="Salary"/>
+            <span asp-validation-for="Salary" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-danger" asp-controller="Employee" asp-action="GetAllEmployees" >Cancel</button>
+            <button type="Submit" class="btn btn-success" asp-controller="Employee" asp-action="CreateEmployee"  >Save</button>
+        </div>
+    </form>
+
+

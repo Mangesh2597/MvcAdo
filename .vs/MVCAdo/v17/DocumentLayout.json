@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2156053\\OneDrive - Cognizant\\Desktop\\C#\\MVCAdo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3857B3AA-223A-4DA4-BB6B-61A94B8115F4}|MVCAdo.csproj|c:\\users\\2156053\\onedrive - cognizant\\desktop\\c#\\mvcado\\dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3857B3AA-223A-4DA4-BB6B-61A94B8115F4}|MVCAdo.csproj|solutionrelative:dal\\employee_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3857B3AA-223A-4DA4-BB6B-61A94B8115F4}|MVCAdo.csproj|c:\\users\\2156053\\onedrive - cognizant\\desktop\\c#\\mvcado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3857B3AA-223A-4DA4-BB6B-61A94B8115F4}|MVCAdo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3857B3AA-223A-4DA4-BB6B-61A94B8115F4}|MVCAdo.csproj|c:\\users\\2156053\\onedrive - cognizant\\desktop\\c#\\mvcado\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3857B3AA-223A-4DA4-BB6B-61A94B8115F4}|MVCAdo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3857B3AA-223A-4DA4-BB6B-61A94B8115F4}|MVCAdo.csproj|c:\\users\\2156053\\onedrive - cognizant\\desktop\\c#\\mvcado\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3857B3AA-223A-4DA4-BB6B-61A94B8115F4}|MVCAdo.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 298,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5e0346da-2890-3f73-9fff-43373da262d0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2156053\\OneDrive - Cognizant\\Desktop\\C#\\MVCAdo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2156053\\OneDrive - Cognizant\\Desktop\\C#\\MVCAdo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:15:11.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\2156053\\OneDrive - Cognizant\\Desktop\\C#\\MVCAdo\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\2156053\\OneDrive - Cognizant\\Desktop\\C#\\MVCAdo\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T15:08:33.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2156053\\OneDrive - Cognizant\\Desktop\\C#\\MVCAdo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\2156053\\OneDrive - Cognizant\\Desktop\\C#\\MVCAdo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T14:47:12.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee_DAL.cs",
+              "DocumentMoniker": "C:\\Users\\2156053\\OneDrive - Cognizant\\Desktop\\C#\\MVCAdo\\DAL\\Employee_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Employee_DAL.cs",
+              "ToolTip": "C:\\Users\\2156053\\OneDrive - Cognizant\\Desktop\\C#\\MVCAdo\\DAL\\Employee_DAL.cs",
+              "RelativeToolTip": "DAL\\Employee_DAL.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wCAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T06:44:28.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

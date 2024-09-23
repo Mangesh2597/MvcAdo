@@ -1,0 +1,76 @@
+@model List<MvcAdo.Models.Employee>
+    @{
+        ViewData["Title"]="Employee Details";
+        var errorMessage = TempData["errorMessage"]?.ToString();
+        var successMessage = TempData["successMessage"]?.ToString();
+    }
+    <h3>@ViewData["Title"]?.ToString()</h3>
+    <hr/>
+    @if(!string.IsNullOrWhiteSpace(@successMessage))
+    {
+      <div class = "alert alert-success">
+        <b>Success :</b> @successMessage
+        <button type="button" class="btn-close float-end" data-bs-dissmiss="alert" aria-label="Close"></button>
+
+      </div>
+    }
+    else if(!string.IsNullOrWhiteSpace(errorMessage))
+    {
+      <div class="alert alert-danger">
+        <b>Error :</b> @errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dissmiss="alert" aria-label="Close"></button>
+      </div>
+    }
+  
+    <form>
+    <div class="mb-2">
+      <Button class ="btn btn-primary" asp-controller="Employee" asp-action="CreateEmployee">Create Employee</Button>
+    </div>
+        <table class="table table-responsive  table-bordered">
+        <thead class="thead-dark">
+            <tr class="table-active">
+                <th>Id</th>
+                <th>Full Name</th>
+                <th>Date of Birth</th>
+                <th>E-mail</th>
+                <th>Salary</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+         <tbody>
+       @if(Model != null && Model.Any())
+        {
+           @foreach(var employee in Model)
+            {
+            <tr>
+              <td>@employee.Id</td>
+              <td>@employee.FullName</td>
+              <td>@employee.DateOfBirth.ToShortDateString()</td>
+              <td>@employee.Email</td>
+              <td>@employee.Salary</td>
+              <td>
+                <div>
+                    <a class="btn btn-success" asp-controller="Employee" asp-action="Edit" asp-route-id ="@employee.Id">Edit</a>
+                
+                
+                    <a class="btn btn-danger" asp-controller="Employee" asp-action="Delete" asp-route-id ="@employee.Id">Delete</a>
+                  </div>
+              </td>
+                
+            </tr>
+
+            }
+       
+        }
+        else
+        {
+          <tr colspan="6">
+            <td>No Employee available at the time</td>
+
+          </tr>
+
+        }
+         </tbody>
+       
+        </table>
+    </form>
